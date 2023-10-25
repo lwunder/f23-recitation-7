@@ -580,6 +580,7 @@
             "markers": "python_version >= '3.5'",
             "version": "==5.1.1"
         },
+
         "exceptiongroup": {
             "hashes": [
                 "sha256:2e3c3fc1538a094aab74fad52d6c33fc94de3dfee3ee01f187c0e0c72aec5337",
@@ -589,8 +590,9 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.0.0rc9"
         },
-        "executing": {
+        "importlib-metadata": {
             "hashes": [
+
                 "sha256:06df6183df67389625f4e763921c6cf978944721abf3e714000200aab95b0657",
                 "sha256:0ff053696fdeef426cda5bd18eacd94f82c91f49823a2e9090124212ceea9b08"
             ],

@@ -8,6 +8,7 @@ jobs:
       - name: Run black formatter
         uses: rickstaa/action-black@v1.3.1
 
+
   test_cov:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -31,6 +32,7 @@ jobs:
       - name: Run test suite and get coverage
         run: |
           pipenv run pytest --cov=app
+
             
   test:
     runs-on: ubuntu-latest
